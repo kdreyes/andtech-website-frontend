@@ -44,7 +44,7 @@ export default function IntroResourcesPage(props) {
         <div className={classes.container}>
           <GridContainer justify="center">
             <GridItem xs={12}>
-              <h1 className={classes.title}>Intro Starter Resources</h1>
+              <h1 className={classes.title}>Intro (Beginner) Starter Resources</h1>
             </GridItem>
           </GridContainer>
         </div>
