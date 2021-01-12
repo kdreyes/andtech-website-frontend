@@ -56,7 +56,18 @@ export default function ProfilePage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
+      <Parallax small filter image={require("assets/img/profile-bg.jpg")}>
+        <div className={classes.container}>
+          <GridContainer justify="center">
+            <GridItem>
+              <h1 className={classes.title}>Hack&amp;TECH 2021</h1>
+              <h4>
+                Frederick, MD's very first high school-focused hackathon
+              </h4>
+            </GridItem>
+          </GridContainer>
+        </div>
+      </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>

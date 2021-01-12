@@ -70,13 +70,13 @@ export default function AboutSection() {
       </GridContainer>
       <GridContainer justify="center" className={classes.section}>
         <GridItem xs={12} sm={6} md={4}>
-          <h2 className={classes.title}>Who is it for?</h2>
+          <h3 className={classes.title}>Who is it for?</h3>
           <h5 className={classes.description}>
             High school students in Frederick County and surrounding areas
           </h5>
         </GridItem>
         <GridItem xs={12} sm={6} md={4}>
-          <h2 className={classes.title}>When is it?</h2>
+          <h3 className={classes.title}>When is it?</h3>
           <h5 className={classes.description}>
             Saturday, June 12, 2021 // 12pm - 12am [TENTATIVE]
           </h5>

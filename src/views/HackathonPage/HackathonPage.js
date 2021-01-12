@@ -14,16 +14,17 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import styles from "assets/jss/material-kit-react/views/landingPage.js";
+import styles from "assets/jss/material-kit-react/views/hackathonPage.js";
 
 // Sections for this page
 import AboutSection from "./Sections/AboutSection.js";
+import RegistrationSection from "./Sections/RegistrationSection.js";
 
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
-export default function LandingPage(props) {
+export default function HackathonPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
@@ -40,10 +41,10 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/landing-bg.png")}>
+      <Parallax small filter image={require("assets/img/hackandtech-bg.png")}>
         <div className={classes.container}>
-          <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
+          <GridContainer justify="center">
+            <GridItem xs={12}>
               <h1 className={classes.title}>Hack&amp;TECH 2021</h1>
               <h4>
                 Frederick, MD's very first high school-focused hackathon
@@ -56,6 +57,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           {/* sections go here */}
           <AboutSection />
+          <RegistrationSection />
         </div>
       </div>
       <Footer />
