@@ -29,7 +29,7 @@ export default function Footer(props) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        <div className={classes.left}>
+        {/* <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
@@ -80,6 +80,10 @@ export default function Footer(props) {
             Creative Tim
           </a>{" "}
           for a better web.
+        </div> */}
+
+        <div>
+          &copy; &amp;TECH, LLC {1900 + new Date().getYear()}
         </div>
       </div>
     </footer>
