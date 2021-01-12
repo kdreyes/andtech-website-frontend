@@ -57,7 +57,7 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection id="product-section"/>
-          <TeamSection />
+          <TeamSection id="team-section"/>
           <WorkSection />
         </div>
       </div>
