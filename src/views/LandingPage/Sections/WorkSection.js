@@ -19,17 +19,15 @@ export default function WorkSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
+        <GridItem cs={12} sm={12} md={12}>
+          <h2 className={classes.title}>Get in touch!</h2>
           <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
-            collaboration. We will responde get back to you in a couple of
-            hours.
+            If you have any questions about &amp;TECH or want to get involved, <a href='mailto:hello@andtechnology.org'>shoot us an email
+            </a> or <a href="https://discord.gg/XMkyvbyNT9">join our Discord Server</a>
           </h4>
           <form>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
+            {/* <GridContainer justify="center"> */}
+              {/* <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
                   labelText="Your Name"
                   id="name"
@@ -58,11 +56,11 @@ export default function WorkSection() {
                   multiline: true,
                   rows: 5
                 }}
-              />
-              <GridItem xs={12} sm={12} md={4}>
-                <Button color="primary">Send Message</Button>
+              /> */}
+              {/* <GridItem xs={12}>
+                <Button color="primary" href='mailto:hello@andtechnology.org'>Send Message</Button>
               </GridItem>
-            </GridContainer>
+            </GridContainer> */}
           </form>
         </GridItem>
       </GridContainer>
