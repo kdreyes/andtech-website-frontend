@@ -21,11 +21,11 @@ import chris from "assets/img/faces/Chris_Headshot.png";
 import ramin from "assets/img/faces/Ramin_Headshot.png";
 import bilal from "assets/img/faces/Bilal_Headshot.png";
 import kristina from "assets/img/faces/Kristina_Headshot.png";
-// import liam from "assets/img/faces/Liam_Headshot.png";
-// import maeva from "assets/img/faces/Maeva_Headshot.png";
+import liam from "assets/img/faces/Liam_Headshot.png";
+import maeva from "assets/img/faces/Maeva_Headshot.png";
 import richmond from "assets/img/faces/Richmond_Headshot.png";
-// import ritik from "assets/img/faces/Ritik_Headshot.png";
-// import generic from "assets/img/faces/Generic_Headshot.png";
+import ritik from "assets/img/faces/Ritik_Headshot.png";
+import generic from "assets/img/faces/avatar.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -65,7 +65,7 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -85,7 +85,7 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
@@ -112,7 +112,7 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -125,7 +125,7 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
@@ -155,7 +155,7 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -175,7 +175,7 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
@@ -199,7 +199,7 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -219,7 +219,7 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
@@ -243,7 +243,7 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -263,7 +263,7 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
@@ -286,7 +286,7 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -306,7 +306,178 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
+                </Button> */}
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={ritik} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Ritik Gupta
+                <br />
+                <small className={classes.smallTitle}>Web Developer &amp; Tech Researcher</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  Ritik is a senior at Tuscarora High School and the president of the Computer Science
+                  Honor Society. He is looking forward to majoring in Computer Science in college.
+                  He is enthusiastic about technology, sports, and the arts. He wishes to combine the
+                  trifecta into making &amp;TECH the best it can be and help spread awareness to the community.
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                {/* <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
                 </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button> */}
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={liam} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Liam Jennings
+                <br />
+                <small className={classes.smallTitle}>Outreach &amp; Tech Dev</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  Liam is a senior at Tuscarora High School. He looks forward to studying Data
+                  Science and/or Mathematics and Computer Science in college. His passions are
+                  sports and STEM, which he hopes to apply and connect at &amp;TECH. He is part
+                  of the tech development and research team, as well as the outreach team.
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                {/* <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button> */}
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={generic} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Riley Jennings
+                <br />
+                <small className={classes.smallTitle}>Communications &amp; Project Advisor</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  Riley is a senior at Tuscarora High School. She is interested in pursuing
+                  either Neuroscience or Music Therapy in college. She is looking forward
+                  to bringing her passion of music and science to &amp;TECH.
+                  She is involved in project development, social media content as well as outreach for &amp;TECH. 
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                {/* <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button> */}
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={maeva} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Maeva Tchouaffe
+                <br />
+                <small className={classes.smallTitle}>Comms &amp; Tech Dev &amp; Web Dev</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  Maeva is a senior at Tuscarora High School. She plans on majoring in Computer
+                  Science and also getting minor degrees in music and psychology. She is eager
+                  to be a part of &amp;TECH.
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                {/* <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
