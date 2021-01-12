@@ -11,6 +11,8 @@ import LandingPage from "views/LandingPage/LandingPage.js";
 import ProfilePage from "views/ProfilePage/ProfilePage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 import HackathonPage from "views/HackathonPage/HackathonPage.js";
+import IntroResourcesPage from "views/IntroResourcesPage/IntroResourcesPage.js";
+import AdvancedResourcesPage from "views/AdvancedResourcesPage/AdvancedResourcesPage.js";
 
 var hist = createBrowserHistory();
 
@@ -21,6 +23,8 @@ ReactDOM.render(
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
       <Route path="/hackandtech" component={HackathonPage} />
+      <Route path="/introstarters" component={IntroResourcesPage} />
+      <Route path="/advancedstarters" component={AdvancedResourcesPage} />
       <Route path="/" component={LandingPage} />
     </Switch>
   </Router>,
