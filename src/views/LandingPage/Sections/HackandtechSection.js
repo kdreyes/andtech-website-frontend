@@ -29,7 +29,7 @@ export default function HackandtechSection() {
             size="lg"
             round
             fullWidth
-            href="/hackandtech"
+            href={process.env.PUBLIC_URL + '/hackandtech'}
             target="_blank"
           >
             Register here

@@ -31,7 +31,7 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="/"
+          href={process.env.PUBLIC_URL + '/'}
           color="transparent"
           className={classes.navLink}
         >
@@ -40,7 +40,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/hackandtech"
+          href={process.env.PUBLIC_URL + '/hackandtech'}
           color="transparent"
           target="_blank"
           className={classes.navLink}
@@ -78,10 +78,10 @@ export default function HeaderLinks(props) {
           }}
           // buttonIcon={Apps}
           dropdownList={[
-            <Link to="/introstarters" className={classes.dropdownLink}>
+            <Link to={process.env.PUBLIC_URL + '/introstarters'} className={classes.dropdownLink}>
               Intro Starters
             </Link>,
-            <Link to="/advancedstarters" className={classes.dropdownLink}>
+            <Link to={process.env.PUBLIC_URL + '/advancedstarters'} className={classes.dropdownLink}>
               Advanced Starters
           </Link>
           ]}
