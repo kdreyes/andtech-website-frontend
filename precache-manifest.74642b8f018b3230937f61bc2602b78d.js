@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e92e22ba11ad06331692b3b7046f3e9",
+    "revision": "e5825d93afedb7500ad7544f9cf353d9",
     "url": "/andtech-website/index.html"
   },
   {
-    "revision": "f9ca3ee768d377115bd1",
+    "revision": "af741aa550d8255a5021",
     "url": "/andtech-website/static/css/main.27e9d3dc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andtech-website/static/js/2.7f110529.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9ca3ee768d377115bd1",
-    "url": "/andtech-website/static/js/main.d3155f36.chunk.js"
+    "revision": "af741aa550d8255a5021",
+    "url": "/andtech-website/static/js/main.a0b0e0ba.chunk.js"
   },
   {
     "revision": "fb5a404071a6f03f1a4d",

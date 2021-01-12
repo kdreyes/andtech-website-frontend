@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/andtech-website/static/css/main.27e9d3dc.chunk.css",
-    "main.js": "/andtech-website/static/js/main.d3155f36.chunk.js",
-    "main.js.map": "/andtech-website/static/js/main.d3155f36.chunk.js.map",
+    "main.js": "/andtech-website/static/js/main.a0b0e0ba.chunk.js",
+    "main.js.map": "/andtech-website/static/js/main.a0b0e0ba.chunk.js.map",
     "runtime-main.js": "/andtech-website/static/js/runtime-main.9660ab73.js",
     "runtime-main.js.map": "/andtech-website/static/js/runtime-main.9660ab73.js.map",
     "static/js/2.7f110529.chunk.js": "/andtech-website/static/js/2.7f110529.chunk.js",
     "static/js/2.7f110529.chunk.js.map": "/andtech-website/static/js/2.7f110529.chunk.js.map",
     "index.html": "/andtech-website/index.html",
-    "precache-manifest.3db1c3517262b47e76d339aa06c54f2f.js": "/andtech-website/precache-manifest.3db1c3517262b47e76d339aa06c54f2f.js",
+    "precache-manifest.74642b8f018b3230937f61bc2602b78d.js": "/andtech-website/precache-manifest.74642b8f018b3230937f61bc2602b78d.js",
     "service-worker.js": "/andtech-website/service-worker.js",
     "static/css/main.27e9d3dc.chunk.css.map": "/andtech-website/static/css/main.27e9d3dc.chunk.css.map",
     "static/js/2.7f110529.chunk.js.LICENSE.txt": "/andtech-website/static/js/2.7f110529.chunk.js.LICENSE.txt",
@@ -49,6 +49,6 @@
     "static/js/runtime-main.9660ab73.js",
     "static/js/2.7f110529.chunk.js",
     "static/css/main.27e9d3dc.chunk.css",
-    "static/js/main.d3155f36.chunk.js"
+    "static/js/main.a0b0e0ba.chunk.js"
   ]
 }
