@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../src/assets/img/andtech-logo.png';
 import './App.css';
 
 function App() {
